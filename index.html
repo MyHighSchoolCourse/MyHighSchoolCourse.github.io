@@ -22,13 +22,21 @@
         <ul class="nav">
             <li><a href="#">Home</a> </li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Article</a></li>
+            <li><a href="#">Article</a>
+                <ul>
+                    <li><a href="single.html">General Article</a></li>
+                    <li><a href="math-sci.html">วิทย์-คณิต</a></li>
+                    <li><a href="art-lang.html">ศิลป์-ภาษา</a></li>
+                    <li><a href="art-social.html">ศิลป์-สังคม</a></li>
+                    <li><a href="art-cal.html">ศิลป์-คำนวณ</a></li>
+                </ul>
+            </li>
             <!--<li><a href="#">Sign Up</a></li>
             <li><a href="#">Login</a></li>-->
             <li>
                 <a href="#">
                     <i class="fa fa-user"></i>
-                    Norawee
+                    User-1
                     <i class="fa fa-chevron-down" style="font-size: 0.8em;"></i>
                 </a>
                 <ul>
@@ -262,7 +270,7 @@
                     <h2>Contact Us</h2>
                     <br>
                     <form action="https://formspree.io/f/xoqgazkw" method="post">
-                       <input type="text" name="Name" class="text-input contact-input" placeholder="Full Name" required>
+                        <input type="text" name="Name" class="text-input contact-input" placeholder="Full Name" required>
                         <input type="email" name="email" class="text-input contact-input" placeholder="Your email address..." required>
                         <select name="Class" class="text-input contact-input">
                             <option>Class 1</option>
@@ -272,7 +280,7 @@
                             <option>Class 5</option>
                             <option>Class 6</option>
                         </select>
-                        <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                        <textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..." required></textarea>
                         <button type="submit" class="btn btn-big contact-btn">
                             <i class="fas fa-envelope"></i>
                             Send
